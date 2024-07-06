@@ -13,7 +13,7 @@ const FiredUsers = () => {
     <div>
       <h1 style={{ marginTop: '80px' }}>Ishdan bo`shatilganlar</h1>
       {firedUsers.length > 0 ? (
-        <table style={{ width: '280%', borderCollapse: 'collapse', marginTop: '40px' }}>
+        <table style={{ width: '250%', borderCollapse: 'collapse', marginTop: '40px' }}>
           <thead>
             <tr>
               <th style={{ border: '1px solid #ccc', padding: '8px' }}>Avatar</th>
