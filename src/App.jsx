@@ -1,6 +1,5 @@
 import './App.css';
 import { Routes, Route, useLocation } from "react-router-dom";
-import Home from './routes/home/Home';
 import Login from './routes/login/Login';
 import Nav from "./components/nav/Nav";
 import Admin from './routes/admin/Admin';
@@ -19,7 +18,6 @@ function App() {
       !pathname.includes("/admin") && <Nav/>
     }
     <Routes>
-      <Route path='' element={<Home/>} />
       <Route path='login' element={<Login/>} />
       <Route path='admin' element={<Admin/>}>
         <Route path='users' element={<Users/>}>
